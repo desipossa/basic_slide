@@ -39,21 +39,21 @@ h1 {
     display: block;
     margin: 0 0 24px 0;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 100;
     color: #fff;
 }
 
 .main_content .title h2 {
     font-size: 56px;
-    font-weight: 100;
+    font-weight: 900;
     color: #fff;
-    margin: 0 0 24px 0;
+    margin: 0 0 48px 0;
 }
 
 .main_content .title p {
     margin: 0 0 80px 0;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 200;
     line-height: 24px;
     color: #fff;
 }
@@ -191,11 +191,13 @@ h1 {
     margin: 0 auto 0 0;
     width: 800px;
     height: 800px;
+
+    top: 120px;
 }
 
 .cu .inner .ring {
     left: 120px;
-    transform: skewX(-10deg);
+    transform: scale(0.9) skewX(-30deg);
 }
 
 .cu .inner .ring img {
